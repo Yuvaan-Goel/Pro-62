@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid and Sliding Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+    <h1>Grid Gallery</h1>
+  <span class= "sp">
+      <img src= "best-burgers-in-noida.jpg">
+    </span>  
+    <span class= "sp">
+        <img src= "filters-20190209-211606.jpg">
+    </span>
+    <br>
+    <br>
+    <span class= "sp">
+        <img src= "chole-bhature-recipe.jpg">
+    </span>
+    <span class= "sp">
+        <img src="download.jfif">
+    </span>
+    <h1>Sliding Gallery</h1>
+    <div id="myCarousel" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="item-active">
+                <center>
+                    <img src="best-burgers-in-noida.jpg">
+                    <div class="carousel-content">
+                        <p>Burgers</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img src="filters-20190209-211606.jpg">
+                    <div class="carousel-content">
+                        <p>Pizza</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img src="chole-bhature-recipe.jpg">
+                    <div class="carousel-content">
+                        <p>Chole Bhature</p>
+                    </div>
+                </center>
+            </div>
+            <div class="item">
+                <center>
+                    <img src="download.jfif">
+                    <div class="carousel-content">
+                        <p>Cookies</p>
+                    </div>
+                </center>
+            </div>
+        </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+    </div>
+</body>
+</html>
